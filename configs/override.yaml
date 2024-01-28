@@ -1,0 +1,11 @@
+# override default setting of this PC
+# CREATE ANOTHER YAML FOR EACH "EXPERIMENT"
+---
+  epochs: 800
+  batchSize: 16
+  scaleFactor : 4
+  numWorkers : 6 # set 0 in override if out of memory
+  saveEvery: 10 # epochs
+  patchSize : 128
+  randomFlip : false
+  startLearningRate : 0.0002
